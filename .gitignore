@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+npm-debug.log*
+.DS_Store # Mac specific files
+
+# Env variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Optional: If you use an IDE like VS Code, ignore its settings
+.vscode/
+
+# Optional: If you want to ignore your data files (e.g., in a production setup
+# where data is in a database, not flat files), you could uncomment this.
+# For this project, you probably want to keep data/ in Git, so keep it commented.
+# server/data/*.json
+
