@@ -1,11 +1,50 @@
+# =========================
 # Node.js
+# =========================
 node_modules/
 npm-debug.log*
-.DS_Store # Mac specific files
+yarn-debug.log*
+yarn-error.log*
 
-# Env variables
+# =========================
+# Environment variables
+# =========================
 .env
-.env.local
-.env.development
-.env.test
-.env.production
+.env.*
+!.env.example
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Build / Cache
+# =========================
+dist/
+build/
+.cache/
+
+# =========================
+# IDE / Editor settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Runtime data (IMPORTANT)
+# =========================
+# Ignore backend runtime JSON data (Render resets anyway)
+data/*.json
+
+# =========================
+# Coverage
+# =========================
+coverage/
