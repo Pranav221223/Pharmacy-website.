@@ -159,6 +159,9 @@ app.delete('/api/products/:id', isAuth, (req, res) => {
 // ==========================
 // START SERVER
 // ==========================
+app.get('/', (req, res) => {
+  res.send('🚀 Pharmacy Backend is running successfully');
+});
 
 app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
