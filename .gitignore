@@ -1,7 +1,12 @@
 # =========================
-# Node.js
+# Dependencies
 # =========================
 node_modules/
+
+# =========================
+# Package manager locks
+# =========================
+package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -14,10 +19,10 @@ yarn-error.log*
 !.env.example
 
 # =========================
-# OS / Editor files
+# Build output
 # =========================
-.DS_Store
-Thumbs.db
+dist/
+build/
 
 # =========================
 # Logs
@@ -26,22 +31,16 @@ logs/
 *.log
 
 # =========================
-# Build / Cache
+# OS / Editor
 # =========================
-dist/
-build/
-.cache/
-
-# =========================
-# IDE / Editor settings
-# =========================
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
 
 # =========================
-# Runtime data (IMPORTANT)
+# Runtime data (ephemeral)
 # =========================
-# Ignore backend runtime JSON data (Render resets anyway)
 data/*.json
 
 # =========================
